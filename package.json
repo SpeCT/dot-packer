@@ -1,6 +1,6 @@
 {
     "name": "dot-packer",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "description": "Precompile, compress, and pack doT.js javascript templates into one file",
     "preferGlobal": "true",
     "main": "index.js",
@@ -14,7 +14,8 @@
     "dependencies": {
         "commander": "0.5.2",
 		"dot":">= 0.2.4",
-		"uglify-js":">=2.3.6"
+		"uglify-js":">=2.3.6",
+        "wrench": ">= 1.5.7"
     },
 	
     "engines": { "node": "*" }

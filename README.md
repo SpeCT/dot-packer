@@ -22,6 +22,7 @@ dot-packer
 ###Options:
 
 	-d 	Target directory <path>
+	-r 	Walk through the target directory recursively
 	-o	Output file <path>
 	-n  The GLOBAL variable to pack the templates in. (default:JST)
 	
